@@ -41,7 +41,7 @@ function askUser(){
         {
             type: 'input',
             name: 'itemChoice',
-            message: 'Please enter ID of the item you are buying.'
+            message: 'Enter the ID of the item you are buying.'
         },
         {
             type: 'input',

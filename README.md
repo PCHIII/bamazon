@@ -1,6 +1,9 @@
-# bamazon
+# Bamazon: Node.js & MySQL
 
-# Node.js & MySQL
+Built With:
+* <a href="https://www.npmjs.com/package/inquirer" rel="nofollow">Inquirer NPM Package</a>
+* <a href="https://www.npmjs.com/package/mysql" rel="nofollow">MySQL NPM Package</a>
+* <a href="https://www.npmjs.com/package/console.table" rel="nofollow">Console.table NPM Package</a>
 
 ## Overview
 
@@ -48,6 +51,6 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
 - - -
 
-* If this activity took you between 8-10 hours, then you've put enough time into this assignment. Feel free to stop here -- unless you want to take on the next challenge.
+
 
 - - -
