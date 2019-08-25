@@ -12,8 +12,7 @@ CREATE TABLE products (
     PRIMARY KEY (item_id)
 );
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Costa Del Mar Fantail', 'Mens Accessories', 200, 39);
+
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ('Bourne Identity', 'Movies', 10, 100);
@@ -23,6 +22,9 @@ VALUES ('Mission: Impossible – Fallout', 'Movies', 14, 154);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ('007-Spectre', 'Movies', 12, 120);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ('Costa Del Mar Fantail', 'Mens Accessories', 200, 39);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ('Luminox Seal Team-6 Watch', 'Mens Accessories', 399, 20);
