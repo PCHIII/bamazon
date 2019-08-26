@@ -22,7 +22,7 @@ function showInventory(){
     connection.query( "SELECT * FROM products", function (error, response){
             
             if (error){
-                console.log("There was error.")
+                console.log(`There was error.`)
                 return;
             }
             
@@ -67,7 +67,7 @@ function askUser(){
         connection.query(`SELECT * FROM products WHERE item_id = ${item}`, function (error, response){
             
             if (error){
-                console.log("There was an error.");
+                console.log(`There was an error.`);
                 return;
             }
             else {
@@ -85,7 +85,7 @@ function askUser(){
                     function(error, response){
                         
                         if (error){
-                            console.log("Quantity failed.");
+                            console.log(`Quantity failed.`);
                             return;
                         }
                         else {
@@ -98,7 +98,7 @@ function askUser(){
                             function(error, response){
                                 
                                 if (error){
-                                    // console.log("Quantity failed.");
+                                    // console.log(`Quantity failed.`);
                                     return;
                                 }
                                 else {
