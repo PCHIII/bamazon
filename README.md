@@ -51,6 +51,11 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
 - - -
 
+![](bamazon_screenshots/bac.jpg)
+
+- - -
+![](bamazon_screenshots/baa.jpg)
 
 
 - - -
+![](bamazon_screenshots/bab.jpg)
