@@ -17,7 +17,7 @@ function start() {
             type: 'rawlist',
             name: 'query',
             message: 'What would you like to do?',
-            choices: ['View Products for Sale', 'View Low Inventory', 'Add to Inventory', 'Add New Product']
+            choices: ['List Products for Sale', 'List Low Inventory', 'Add to Inventory', 'Add New Product']
 
         }
     ).then(function (answer) {
@@ -41,4 +41,4 @@ function start() {
     });
 }
 
-
+start();
