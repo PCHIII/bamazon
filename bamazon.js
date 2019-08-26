@@ -58,7 +58,7 @@ function askUser(){
             name: 'quantity',
             message: 'How many would you like to buy?'
         }
-    ]).then(function(answer){
+    ]).then(answer => {
 
         var item = parseInt(answer.itemChoice);
 
