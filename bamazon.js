@@ -32,7 +32,8 @@ function showInventory(){
                         id: response[i].item_id,
                         item: response[i].product_name,
                         price: response[i].price,
-                        department: response[i].department_name
+                        department: response[i].department_name,
+                        inventory: response[i].stock_quantity
                     });
                 }
                 //call table (console.table)
