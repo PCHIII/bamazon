@@ -56,12 +56,12 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 - - -
 Below shows the user ordering 1 item.
 
-![](bamazon_screenshots/bac.jpg)
+![](bamazon_screenshots/bac.JPG)
 
 - - -
 Below shows the users attempting to order more then is available.
-![](bamazon_screenshots/baa.jpg)
+![](bamazon_screenshots/baa.JPG)
 
 - - -
 Below shows user correcting order.
-![](bamazon_screenshots/bab.jpg)
+![](bamazon_screenshots/bab.JPG)
