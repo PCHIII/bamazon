@@ -11,4 +11,34 @@ var connection = mysql.createConnection({
     
 });
 
+function start() {
+    inquirer.prompt(
+        {
+            type: 'rawlist',
+            name: 'query',
+            message: 'What would you like to do?',
+            choices: ['View Products for Sale', 'View Low Inventory', 'Add to Inventory', 'Add New Product']
+
+        }
+    ).then(function (answer) {
+        response = answer.query;
+        switch (response) {
+            case 'List Products for Sale':
+                showInventory();
+                break;
+            case 'List Low Inventory':
+                showLow();
+                break;
+            case 'Add to Inventory':
+                addItem();
+                break;
+            case 'Add New Product':
+                createNew();
+                break;
+            default:
+                console.log("Not a valid choice.")
+        }
+    });
+}
+
 
