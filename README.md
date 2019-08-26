@@ -7,9 +7,9 @@ Built With:
 
 ## Overview
 
-In this activity, you'll be creating an Amazon-like storefront with the MySQL skills you learned this unit. The app will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
+This Bamazon App will take in orders from customers and deplete stock from the store's inventory. 
 
-Make sure you save and require the MySQL and Inquirer npm packages in your homework files--your app will need them for data input and storage.
+Also, there is a Bonus section that allows a Managers view, which allows for viewing investory, added new products and increasing supply.
 
 
 ## Instructions
@@ -65,3 +65,11 @@ Below shows the users attempting to order more then is available.
 - - -
 Below shows user correcting order.
 ![](bamazon_screenshots/bab.JPG)
+
+- - -
+
+### Challenge #2: Manager View EXAMPLES (Bonus)
+- - -
+Below shows Manager choices.
+
+![](bamazon_screenshots/bamg.JPG)

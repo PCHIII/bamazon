@@ -20,7 +20,7 @@ function start() {
             choices: ['List Products for Sale', 'List Low Inventory', 'Add to Inventory', 'Add New Product']
 
         }
-    ).then(function (answer) {
+    ).then(answer => {
         response = answer.query;
         switch (response) {
             case 'List Products for Sale':
