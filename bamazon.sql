@@ -30,7 +30,10 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ('Luminox Seal Team-6 Watch', 'Mens Accessories', 399, 20);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Black Diamond Gloves', 'Mens Accessories', 80,6);
+VALUES ('Black Diamond Gloves', 'Mens Accessories', 79,6);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ('Sig Sauer 1911 .45 ACP', 'Sporting Goods', 1350,2);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ('MEGUIARS Ultimate Wash', 'Automotive', 11, 50);
