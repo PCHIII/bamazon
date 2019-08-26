@@ -49,13 +49,19 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
    * This means updating the SQL database to reflect the remaining quantity.
    * Once the update goes through, show the customer the total cost of their purchase.
 
+
 - - -
+
+### Challenge #1: Customer View EXAMPLES (Minimum Requirement)
+- - -
+Below shows the user ordering 1 item.
 
 ![](bamazon_screenshots/bac.jpg)
 
 - - -
+Below shows the users attempting to order more then is available.
 ![](bamazon_screenshots/baa.jpg)
 
-
 - - -
+Below shows user correcting order.
 ![](bamazon_screenshots/bab.jpg)
