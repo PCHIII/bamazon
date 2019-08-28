@@ -14,7 +14,7 @@ var connection = mysql.createConnection({
 function start() {
     inquirer.prompt(
         {
-            type: 'rawlist',
+            type: 'mgrList',
             name: 'query',
             message: 'What would you like to do?',
             choices: ['List Products for Sale', 'List Low Inventory', 'Add to Inventory', 'Add New Product']

@@ -52,7 +52,7 @@ Also, there is a Bonus section that allows a Managers view, which allows for vie
 
 - - -
 
-### Challenge #1: Customer View EXAMPLES (Minimum Requirement)
+### Challenge #1: Customer View APP EXAMPLES (Minimum Requirement)
 - - -
 Below shows the user ordering 1 item.
 
@@ -68,7 +68,7 @@ Below shows user correcting order.
 
 - - -
 
-### Challenge #2: Manager View EXAMPLES (Bonus)
+### Challenge #2: Manager View APP EXAMPLES (Bonus)
 - - -
 Below shows Manager choices.
 
