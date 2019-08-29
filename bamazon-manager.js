@@ -10,7 +10,8 @@ var connection = mysql.createConnection({
     database: 'bamazonDB'
     
 });
-
+// create an numbered list for mgrs choices
+// create switch/case/breaks for each choice.
 function start() {
     inquirer.prompt(
         {
@@ -40,5 +41,14 @@ function start() {
         }
     });
 }
+// create function to show inventory from list
+
+// create function to show low Inventory < 10
+
+// create function to add to inventory list
+
+// create function to add new product.
+
+
 
 start();
